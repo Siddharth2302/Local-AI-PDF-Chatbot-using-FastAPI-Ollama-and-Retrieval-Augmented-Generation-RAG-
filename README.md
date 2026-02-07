@@ -57,16 +57,15 @@ Prompt Construction
 LLM Response Generation
 
 ## project structure
-│
-├── main.py # FastAPI server and endpoints
-├── pdf_reader.py # PDF text extraction
-├── chunker.py # Text chunking logic
-├── embeddings.py # Embedding generation
-├── cosine_search.py # Similarity search logic
-├── prompt.py # Prompt construction
-├── data_store.py # In-memory vector storage
-├── requirements.txt # Dependencies
-└── README.md
+ main.py # FastAPI server and endpoints
+ pdf_reader.py # PDF text extraction
+ chunker.py # Text chunking logic
+ embeddings.py # Embedding generation
+ cosine_search.py # Similarity search logic
+ prompt.py # Prompt construction
+ data_store.py # In-memory vector storage
+ requirements.txt # Dependencies
+ README.md
 
 
 ---
