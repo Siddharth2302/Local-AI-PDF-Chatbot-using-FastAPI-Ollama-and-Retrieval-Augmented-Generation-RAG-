@@ -41,31 +41,24 @@ Other:
 ## Architecture
 
 PDF Upload
-↓
-Text Extraction
-↓
-Text Chunking
-↓
-Embedding Generation
-↓
-Vector Storage (In-Memory)
-↓
-Similarity Search
-↓
-Prompt Construction
-↓
-LLM Response Generation
+1. Text Extraction
+2. Text Chunking
+3. Embedding Generation
+4. Vector Storage (In-Memory)
+5. Similarity Search
+6. Prompt Construction
+7.LLM Response Generation
 
 ## project structure
- main.py # FastAPI server and endpoints
- pdf_reader.py # PDF text extraction
- chunker.py # Text chunking logic
- embeddings.py # Embedding generation
- cosine_search.py # Similarity search logic
- prompt.py # Prompt construction
- data_store.py # In-memory vector storage
- requirements.txt # Dependencies
- README.md
+1. main.py # FastAPI server and endpoints
+2. pdf_reader.py # PDF text extraction
+3. chunker.py # Text chunking logic
+4. embeddings.py # Embedding generation
+5. cosine_search.py # Similarity search logic
+6. prompt.py # Prompt construction
+7. data_store.py # In-memory vector storage
+8. requirements.txt # Dependencies
+9. README.md
 
 
 ---
